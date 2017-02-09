@@ -1,0 +1,296 @@
+/*默认样式重置*/
+html,body {
+	width: 100%;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p,div,ul,li,ol,dl,dt,dd,table,tr,td,th,span,i {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.main{
+	width: 1024px;
+	margin: 0 auto;
+}
+/*导航栏*/
+.header-nav{
+	height: 97px;
+	line-height: 97px;
+	padding-left: 39px;
+	background: #373c3f;
+}
+.header-nav a{
+	padding: 0 15px;
+	display: block;
+	font-size: 15px;
+	float: left;
+	font-family: Times New Roman;
+}
+.header-nav2{
+	display: none;
+}
+.pic-980,.pic-640,.pic-320{
+	display: none;
+	}
+.pic-1024{
+	display: block;
+	}
+.psd-left{
+	float: left;
+	width: 77.7%;
+	height: 246px;
+	background: #27212c;
+	line-height: 246px;
+	text-align: left;
+	text-indent: 88px;
+	font-size: 28px;
+	color: white;
+	font-family: Times New Roman;
+}
+.psd-right{
+	width: 22.3%;
+	float: right;
+	height: 246px;
+	line-height: 246px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	background: #bc3183;
+}
+.pic-items div,.pic-items img{
+	width: 33.333%;
+	height: 296px;
+	display: block;
+	float: left;
+}
+.pic-items div{
+	background: #5b0fa1;
+	line-height: 296px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+.content{
+	overflow: hidden;
+	padding: 54px 85px 174px 80px;
+	background: #ebebeb;
+}
+.content h3{
+	font-size: 30px;
+	line-height: 44px;
+	color: #088ca5;
+	margin-bottom: 19px;
+}
+.content p{
+	font-family: Times New Roman;
+	font-size: 14px;
+	line-height: 26px;
+	color: #515151;
+	margin-bottom: 34px;
+}
+.content div{
+	width: 402px;
+}
+.section-pic{
+	display: none;
+}
+@media all and (min-width:980px) and (max-width:1024px) {
+	.main{
+		width: 980px;
+	}
+	.pic-1024,.pic-640,.pic-320{
+		display: none;
+	}
+	.pic-980{
+		display: block;
+	}
+	.psd-left,.psd-right{
+		height: 233px;
+		line-height: 233px;
+	}
+	.psd-left{
+		text-indent: 80px;
+	}
+	.pic-items div,.pic-items img{
+		height: 280px;
+	}
+	.pic-items div{
+		line-height: 280px;
+	}
+	.content{
+		padding: 64px 90px 95px 70px;
+	}
+}
+@media all and (min-width:640px) and (max-width:980px) {
+	.main{
+		width: 640px;
+	}
+	.pic-1024,.pic-980,.pic-320{
+		display: none;
+	}
+	.pic-640{
+		display: block;
+	}
+	.header-nav{
+		display: none;
+	}
+	.header-nav2{
+		display: block;
+		height: 75px;
+		line-height: 75px;
+		padding-left: 34px;
+		background: #373c3f;
+	}
+	.header-nav2 a{
+		display: block;
+		font-size: 30px;
+		float: left;
+	}
+	.header-nav2 img{
+		float: right;
+	}
+	.psd-left,.psd-right{
+		height: 150px;
+		line-height: 150px;
+	}
+	.psd-left{
+		text-indent: 28px;
+	}
+	.section-pic{
+		display: block;
+	}
+	.section-pic img{
+		display: block;
+		float: left;
+	}
+	.section-pic div{
+		height: 550px;
+		width: 100%;
+		text-align: center;
+		line-height: 550px;
+		color: white;
+		font-size: 80px;
+		font-weight: bold;
+		background: #5b0fa1;
+		float: left;
+	}
+	.pic-items{
+		display: none;
+	}
+	.content{
+		padding: 70px 70px 95px 70px;
+	}
+	.fr{
+		display: none;
+	}
+	.content p{
+		
+		font-size: 22px;
+		line-height: 44px;
+	}
+	.content div{
+		width: 100%;
+	}
+}
+@media all and (min-width:320px ) and (max-width:640px){
+	.main{
+		width: 320px;
+	}
+	.pic-1024,.pic-980,.pic-640{
+		display: none;
+	}
+	.pic-320{
+		display: block;
+	}
+	.header-nav{
+		display: none;
+	}
+	.header-nav2{
+		display: block;
+		height: 37px;
+		line-height: 37px;
+		padding-left: 20px;
+		background: #373c3f;
+	}
+	.header-nav2 a{
+		display: block;
+		font-size: 10px;
+		float: left;
+	}
+	.header-nav2 img{
+		float: right;
+		width: 41px;
+		height: 37px;
+	}
+	.psd-left,.psd-right{
+		height: 75px;
+		line-height: 75px;
+	}
+	.psd-left{
+		text-indent: 27px;
+		font-size: 12px;
+	}
+	.psd-right{
+		font-size: 20px;
+		
+	}
+	.section-pic{
+		display: block;
+	}
+	.section-pic img{
+		display: block;
+		float: left;
+		width: 100%;
+		height: 278px;
+	}
+	.section-pic div{
+		height: 276px;
+		width: 100%;
+		text-align: center;
+		line-height: 276px;
+		color: white;
+		font-size: 50px;
+		font-weight: bold;
+		background: #5b0fa1;
+		float: left;
+	}
+	.pic-items{
+		display: none;
+	}
+	.content{
+		padding: 35px 30px 50px 36px;
+	}
+	.fr{
+		display: none;
+	}
+	.content h3{
+		font-size: 19px;
+		line-height: 22px;
+	}
+	.content p{
+		font-size: 13.5px;
+		line-height: 22px;
+	}
+	.content div{
+		width: 100%;
+	}
+}
